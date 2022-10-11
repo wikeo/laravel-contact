@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "wikeo/laravel-contact",
+    "description": "Simple but powerful Laravel package to create a contact form.",
     "keywords": [
-        ":vendor_name",
+        "wikeo",
         "laravel",
-        ":package_slug"
+        "laravel-contact"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/wikeo/laravel-contact",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Thomas",
+            "email": "contact@wikeo.be",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Wikeo\\LaravelContact\\": "src",
+            "Wikeo\\LaravelContact\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Wikeo\\LaravelContact\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Wikeo\\LaravelContact\\LaravelContactServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelContact": "Wikeo\\LaravelContact\\Facades\\LaravelContact"
             }
         }
     },
