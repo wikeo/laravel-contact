@@ -2,9 +2,9 @@
 
 namespace Wikeo\LaravelContact;
 
-use Wikeo\LaravelContact\Models\Contact;
 use Illuminate\Support\Facades\Mail;
 use Wikeo\LaravelContact\Mail\Contact as ContactMail;
+use Wikeo\LaravelContact\Models\Contact;
 
 class LaravelContact
 {

@@ -3,9 +3,7 @@
 namespace Wikeo\LaravelContact\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Content;
 use Illuminate\Queue\SerializesModels;
 use Wikeo\LaravelContact\Models\Contact as ContactModel;
 
