@@ -4,10 +4,9 @@ namespace Wikeo\LaravelContact\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/*
-class ModelFactory extends Factory
+class ContactFactory extends Factory
 {
-    protected $model = YourModel::class;
+    protected $model = Contact::class;
 
     public function definition()
     {
@@ -16,4 +15,3 @@ class ModelFactory extends Factory
         ];
     }
 }
-*/

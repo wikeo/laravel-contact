@@ -4,7 +4,6 @@ namespace Wikeo\LaravelContact;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Wikeo\LaravelContact\Commands\LaravelContactCommand;
 
 class LaravelContactServiceProvider extends PackageServiceProvider
 {
@@ -18,8 +17,9 @@ class LaravelContactServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-contact')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-contact_table')
-            ->hasCommand(LaravelContactCommand::class);
+            ->hasViews('laravel-contact')
+            ->hasMigration('2022_10_20_100000_create_laravel-contact_table')
+            ->runsMigrations()
+            ->hasRoute('web');
     }
 }
