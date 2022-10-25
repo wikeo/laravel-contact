@@ -3,6 +3,7 @@
 namespace Wikeo\LaravelContact\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Wikeo\LaravelContact\Models\Contact;
 
 class ContactFactory extends Factory
 {
