@@ -9,7 +9,8 @@ use Wikeo\LaravelContact\Models\Contact as ContactModel;
 
 class Contact extends Mailable
 {
-    use Queueable, SerializesModels;
+    use Queueable;
+    use SerializesModels;
 
     public $contact;
 
