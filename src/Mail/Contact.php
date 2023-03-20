@@ -17,7 +17,6 @@ class Contact extends Mailable
     /**
      * Create a new message instance.
      *
-     * @param  \Wikeo\LaravelContact\Models\Contact  $contact
      * @return void
      */
     public function __construct(ContactModel $contact)
